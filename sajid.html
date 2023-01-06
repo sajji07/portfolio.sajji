@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8fb2c9f517.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="R letter.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>WEB DESIGNER</p>
+            <h1>Hi, I'm <span>Mohammed Sajid</span><br> From India </h1>
+        </div>
+    </div>
+</div>
+<!---------------About------------------>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="sajid.jpeg">
+            </div>
+             <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Im Mohammed Sajid Studing in Pa College of Engineering in the Branch Of
+                    Computer science And Engineering Im currently in the 3rd year Im From Manglore ,krishnapura </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        
+                    </div>
+                    left: 25px;
+                    cursor: pointer;
+                }ENT</span><br>Designing Android/IOS Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>WEB DEVELOPMENT</spanExperience><br>Web App Development</li>
+                            <li><span>APP DEVELOPMENT</span><br>Designing Android/IOS Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>SSLC</span><br>Mahesh High School</li>
+                            <li><span>PRE-UNIVERSITY COLLEGE</span><br>Mahesh Pu COLLEGE MANGLORE</li>
+                            <li><span>ENGINEERING</span><br>PA COLLEGE OF ENGINEERING MANGLORE</li>
+                        </ul>
+                    </div>
+                    
+        </div>
+    </div>
+</div>
+<!-----------services------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code-compare"></i>
+                <h2>Web Design</h2>
+                <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development. Web design used to be focused on designing websites for desktop browsers; however, since the mid-2010s, design for mobile and tablet browsers has become ever-increasingly important.
+                     </p>
+                     <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-hashtag"></i>
+                <h2>UI/UX Design</h2>
+                <p>UI refers to the screens, buttons, toggles, icons, and other visual elements that you interact with when using a website, app, or other electronic device. UX refers to the entire interaction you have with a product, including how you feel about the interaction
+                </p> 
+                     <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>App design is an ongoing process comprising user experience (UX) and user interface (UI) elements. Designers ideate, define solutions, create the app's flow and structure, and make stylistic choices from colors to fonts. 
+                     </p>
+                     <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------portfolio---------------------------->
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Works</h1>
+    <div class="worklist">
+        <div class="work">
+            <img src="sajid1.jpg">
+            <div class="layer">
+                <h3>SOCIAL MEDIA APP</h3>
+                <p>Social media apps are applications which can either be downloaded and stored on your phone or tablet, or streamed through your internet browser. Social media apps generally involve messaging, photo-sharing and interactive content. There are multiple categories that social media apps can fall into</p>
+                <a href="#"></a><i class="fa-brands fa-staylinked"></i>
+            </div>
+        </div>
+         <div class="work">
+            <img src="sajid2.jpg">
+             <div class="layer">
+                <h3>MUSIC APP</h3>
+                <p>music, art concerned with combining vocal or instrumental sounds for beauty of form or emotional expression, usually according to cultural standards of rhythm, melody, and, in most Western music, harmony. Both the simple folk song and the complex electronic composition belong to the same activity, music.</p>
+                <a href="#"></a><i class="fa-brands fa-staylinked"></i>
+            </div>
+        </div>
+        <div class="work">
+            <img src="sajid3.jpg">
+             <div class="layer">
+                <h3>ONLINE SHOPPING APP</h3>
+                <p>At its core, electronic commerce or e-commerce is simply the buying and selling of goods and services using the internet, when shopping online.</p>
+                <a href="#"></a><i class="fa-brands fa-staylinked"></i>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+</div>
+</div>
+<!----------------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>   sajidsajji007@gmail.com</p>
+                <p><i class="fa-regular fa-square-phone"></i>   +91 8861077014</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/_saajiii__?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/qr/FKV7B2TDXABEI1"><i class="fa-brands fa-whatsapp"></i></a>
+                    
+                    <a href="https://www.linkedin.com/in/mohammed-sajid-abb048234"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.snapchat.com/add/sajjiiiid?share_id=RXQuurhDF4Q&locale=en-US"><i class="fa-brands fa-snapchat"></i></a>
+                </div>
+                <a href="cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form  class="gform pure-form pure-form-stacked" method="POST" data-mail="sajidsajji007@gmail.com">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">SUBMIT</button>
+                    
+                </form>
+                <span id="msg">Feedback</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright <i class="fa-regular fa-copyright"></i>Made By<i class="fa-duotone fa-dollar-sign"></i>@its.sajid </p>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks =document.getElementsByClassName('tab-links');
+     var tabcontents =document.getElementsByClassName('tab-contents');
+     function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+     }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+      function oclosemenu(){
+        sidemenu.style.right="-200";
+    }
+</script>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzDAv_5uKJL3nhAsgop_eKcUO5aJp9iDLUHjUAA2IvZQiv-fxAPsZPbSNiifupO5Dl8/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg =document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML ="Message sent sucessfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
